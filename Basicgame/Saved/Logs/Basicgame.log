@@ -3381,3 +3381,864 @@ Script Stack (0 frames) :
 [2024.12.13-23.59.27:021][564]LogPlayLevel: Display: Destroying online subsystem :Context_34
 [2024.12.13-23.59.52:908][723]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
 [2024.12.13-23.59.53:797][723]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2024.12.14-00.01.19:308][925]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.14-00.01.19:313][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.14-00.01.19:313][925]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.19:314][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001439s)
+[2024.12.14-00.01.19:314][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001472s)
+[2024.12.14-00.01.19:331][925]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.12.14-00.01.19:333][925]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.01.19:335][925]LogPlayLevel: PIE: World Init took: (0.001295s)
+[2024.12.14-00.01.19:335][925]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.12.14-00.01.19:335][925]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.14-00.01.19:335][925]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.14-00.01.19:335][925]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.14-00.01.19:335][925]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.14-00.01.19:335][925]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.14-00.01.19:335][925]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.14-00.01.19:335][925]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.14-00.01.19:335][925]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.14-00.01.19:335][925]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.14-00.01.19:335][925]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.14-00.01.19:335][925]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.14-00.01.19:338][925]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.14-00.01.19:352][925]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- PRO X Wireless Gaming Headset)
+[2024.12.14-00.01.19:353][925]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.14-00.01.19:353][925]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.14-00.01.19:353][925]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.14-00.01.19:353][925]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.12.14-00.01.19:353][925]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.12.14-00.01.19:355][925]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.12.14-00.01.19:355][925]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.12.14-00.01.19:355][925]LogInit: FAudioDevice initialized with ID 18.
+[2024.12.14-00.01.19:355][925]LogAudio: Display: Audio Device (ID: 18) registered with world 'map'.
+[2024.12.14-00.01.19:355][925]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.12.14-00.01.19:357][925]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.01.19:358][925]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.01.19
+[2024.12.14-00.01.19:358][925]LogWorld: Bringing up level for play took: 0.000472
+[2024.12.14-00.01.19:359][925]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2024.12.14-00.01.19:361][925]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.12.14-00.01.19:362][925]PIE: Server logged in
+[2024.12.14-00.01.19:363][925]PIE: Play in editor total start time 0.051 seconds.
+[2024.12.14-00.01.22:400][283]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.01.22:400][283]LogNet: Browse: /Game/level/map
+[2024.12.14-00.01.22:400][283]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.01.22:400][283]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.22:401][283]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.01.22:401][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.01.22:451][283]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.01.22:453][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.12.14-00.01.22:455][283]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.22:456][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001044s)
+[2024.12.14-00.01.22:456][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001081s)
+[2024.12.14-00.01.22:456][283]LogAudio: Display: Audio Device (ID: 18) registered with world 'map'.
+[2024.12.14-00.01.22:456][283]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.01.22:457][283]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2024.12.14-00.01.22:457][283]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.01.22:457][283]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.01.22
+[2024.12.14-00.01.22:457][283]LogWorld: Bringing up level for play took: 0.000319
+[2024.12.14-00.01.22:460][283]LogLoad: Took 0.059392 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.01.22:460][283]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.26:734][796]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.01.26:734][796]LogNet: Browse: /Game/level/map
+[2024.12.14-00.01.26:734][796]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.01.26:734][796]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.26:735][796]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.01.26:735][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.01.26:777][796]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.01.26:779][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.12.14-00.01.26:781][796]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.26:781][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001047s)
+[2024.12.14-00.01.26:781][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001082s)
+[2024.12.14-00.01.26:781][796]LogAudio: Display: Audio Device (ID: 18) registered with world 'map'.
+[2024.12.14-00.01.26:781][796]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.01.26:783][796]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2024.12.14-00.01.26:783][796]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.01.26:784][796]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.01.26
+[2024.12.14-00.01.26:784][796]LogWorld: Bringing up level for play took: 0.000322
+[2024.12.14-00.01.26:786][796]LogLoad: Took 0.051477 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.01.26:786][796]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.30:101][194]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.01.30:101][194]LogNet: Browse: /Game/level/map
+[2024.12.14-00.01.30:101][194]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.01.30:102][194]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.30:102][194]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.01.30:103][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.01.30:149][194]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.01.30:151][194]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.12.14-00.01.30:153][194]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.30:154][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001105s)
+[2024.12.14-00.01.30:154][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001141s)
+[2024.12.14-00.01.30:154][194]LogAudio: Display: Audio Device (ID: 18) registered with world 'map'.
+[2024.12.14-00.01.30:154][194]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.01.30:155][194]LogPlayLevel: PIE: World Init took: (0.001112s)
+[2024.12.14-00.01.30:155][194]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.01.30:155][194]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.01.30
+[2024.12.14-00.01.30:156][194]LogWorld: Bringing up level for play took: 0.000317
+[2024.12.14-00.01.30:158][194]LogLoad: Took 0.056179 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.01.30:158][194]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.34:474][712]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.01.34:474][712]LogNet: Browse: /Game/level/map
+[2024.12.14-00.01.34:474][712]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.01.34:474][712]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.34:475][712]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.01.34:475][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.01.34:517][712]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.01.34:518][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.12.14-00.01.34:520][712]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.34:521][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001020s)
+[2024.12.14-00.01.34:521][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001054s)
+[2024.12.14-00.01.34:521][712]LogAudio: Display: Audio Device (ID: 18) registered with world 'map'.
+[2024.12.14-00.01.34:521][712]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.01.34:522][712]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2024.12.14-00.01.34:522][712]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.01.34:522][712]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.01.34
+[2024.12.14-00.01.34:522][712]LogWorld: Bringing up level for play took: 0.000315
+[2024.12.14-00.01.34:525][712]LogLoad: Took 0.050678 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.01.34:525][712]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.37:503][ 69]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.01.37:503][ 69]LogNet: Browse: /Game/level/map
+[2024.12.14-00.01.37:503][ 69]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.01.37:503][ 69]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.37:504][ 69]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.01.37:504][ 69]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.01.37:547][ 69]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.01.37:549][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.12.14-00.01.37:551][ 69]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.37:552][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001035s)
+[2024.12.14-00.01.37:552][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001071s)
+[2024.12.14-00.01.37:552][ 69]LogAudio: Display: Audio Device (ID: 18) registered with world 'map'.
+[2024.12.14-00.01.37:552][ 69]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.01.37:553][ 69]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2024.12.14-00.01.37:553][ 69]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.01.37:553][ 69]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.01.37
+[2024.12.14-00.01.37:554][ 69]LogWorld: Bringing up level for play took: 0.000330
+[2024.12.14-00.01.37:556][ 69]LogLoad: Took 0.052680 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.01.37:556][ 69]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.41:041][486]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.01.41:041][486]LogNet: Browse: /Game/level/map
+[2024.12.14-00.01.41:041][486]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.01.41:041][486]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.41:043][486]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.01.41:043][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.01.41:088][486]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.01.41:090][486]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.12.14-00.01.41:092][486]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.41:093][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001039s)
+[2024.12.14-00.01.41:093][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001073s)
+[2024.12.14-00.01.41:093][486]LogAudio: Display: Audio Device (ID: 18) registered with world 'map'.
+[2024.12.14-00.01.41:093][486]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.01.41:093][486]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2024.12.14-00.01.41:093][486]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.01.41:094][486]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.01.41
+[2024.12.14-00.01.41:094][486]LogWorld: Bringing up level for play took: 0.000338
+[2024.12.14-00.01.41:096][486]LogLoad: Took 0.054284 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.01.41:096][486]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.51:253][705]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.01.51:253][705]LogNet: Browse: /Game/level/map
+[2024.12.14-00.01.51:253][705]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.01.51:253][705]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.51:254][705]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.01.51:254][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.01.51:314][705]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.01.51:316][705]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.12.14-00.01.51:318][705]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.51:319][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001088s)
+[2024.12.14-00.01.51:319][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001124s)
+[2024.12.14-00.01.51:319][705]LogAudio: Display: Audio Device (ID: 18) registered with world 'map'.
+[2024.12.14-00.01.51:319][705]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.01.51:320][705]LogPlayLevel: PIE: World Init took: (0.001044s)
+[2024.12.14-00.01.51:320][705]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.01.51:320][705]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.01.51
+[2024.12.14-00.01.51:320][705]LogWorld: Bringing up level for play took: 0.000335
+[2024.12.14-00.01.51:322][705]LogLoad: Took 0.069713 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.01.51:322][705]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.54:463][ 82]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.01.54:463][ 82]LogNet: Browse: /Game/level/map
+[2024.12.14-00.01.54:463][ 82]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.01.54:463][ 82]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.54:464][ 82]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.01.54:464][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.01.54:508][ 82]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.01.54:509][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.12.14-00.01.54:511][ 82]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.54:513][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001023s)
+[2024.12.14-00.01.54:513][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001060s)
+[2024.12.14-00.01.54:513][ 82]LogAudio: Display: Audio Device (ID: 18) registered with world 'map'.
+[2024.12.14-00.01.54:513][ 82]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.01.54:514][ 82]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2024.12.14-00.01.54:514][ 82]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.01.54:514][ 82]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.01.54
+[2024.12.14-00.01.54:514][ 82]LogWorld: Bringing up level for play took: 0.000315
+[2024.12.14-00.01.54:517][ 82]LogLoad: Took 0.052499 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.01.54:517][ 82]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.59:376][665]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.01.59:376][665]LogNet: Browse: /Game/level/map
+[2024.12.14-00.01.59:376][665]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.01.59:376][665]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.59:377][665]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.01.59:377][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.01.59:417][665]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.01.59:418][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.12.14-00.01.59:420][665]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.01.59:421][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001037s)
+[2024.12.14-00.01.59:421][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001073s)
+[2024.12.14-00.01.59:421][665]LogAudio: Display: Audio Device (ID: 18) registered with world 'map'.
+[2024.12.14-00.01.59:421][665]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.01.59:422][665]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2024.12.14-00.01.59:422][665]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.01.59:422][665]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.01.59
+[2024.12.14-00.01.59:422][665]LogWorld: Bringing up level for play took: 0.000317
+[2024.12.14-00.01.59:424][665]LogLoad: Took 0.049313 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.01.59:424][665]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.02:159][993]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.02.02:159][993]LogNet: Browse: /Game/level/map
+[2024.12.14-00.02.02:159][993]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.02.02:159][993]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.02:160][993]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.02.02:160][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.02.02:214][993]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.02.02:216][993]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.12.14-00.02.02:218][993]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.02:219][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001033s)
+[2024.12.14-00.02.02:219][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001069s)
+[2024.12.14-00.02.02:219][993]LogAudio: Display: Audio Device (ID: 18) registered with world 'map'.
+[2024.12.14-00.02.02:219][993]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.02.02:220][993]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2024.12.14-00.02.02:220][993]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.02.02:220][993]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.02.02
+[2024.12.14-00.02.02:220][993]LogWorld: Bringing up level for play took: 0.000312
+[2024.12.14-00.02.02:222][993]LogLoad: Took 0.063481 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.02.02:222][993]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.04:430][258]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.02.04:430][258]LogNet: Browse: /Game/level/map
+[2024.12.14-00.02.04:430][258]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.02.04:430][258]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.04:431][258]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.02.04:431][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.02.04:468][258]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.02.04:469][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.12.14-00.02.04:471][258]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.04:473][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001042s)
+[2024.12.14-00.02.04:473][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001078s)
+[2024.12.14-00.02.04:473][258]LogAudio: Display: Audio Device (ID: 18) registered with world 'map'.
+[2024.12.14-00.02.04:473][258]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.02.04:474][258]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2024.12.14-00.02.04:474][258]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.02.04:474][258]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.02.04
+[2024.12.14-00.02.04:474][258]LogWorld: Bringing up level for play took: 0.000317
+[2024.12.14-00.02.04:476][258]LogLoad: Took 0.045785 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.02.04:476][258]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.06:751][531]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.02.06:751][531]LogNet: Browse: /Game/level/map
+[2024.12.14-00.02.06:751][531]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.02.06:751][531]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.06:752][531]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.02.06:752][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.02.06:797][531]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.02.06:799][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.12.14-00.02.06:801][531]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.06:802][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001027s)
+[2024.12.14-00.02.06:802][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001063s)
+[2024.12.14-00.02.06:802][531]LogAudio: Display: Audio Device (ID: 18) registered with world 'map'.
+[2024.12.14-00.02.06:802][531]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.02.06:803][531]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2024.12.14-00.02.06:803][531]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.02.06:804][531]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.02.06
+[2024.12.14-00.02.06:804][531]LogWorld: Bringing up level for play took: 0.000320
+[2024.12.14-00.02.06:806][531]LogLoad: Took 0.054905 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.02.06:806][531]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.10:497][974]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.02.10:497][974]LogNet: Browse: /Game/level/map
+[2024.12.14-00.02.10:497][974]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.02.10:497][974]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.10:498][974]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.02.10:498][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.02.10:551][974]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.02.10:553][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.12.14-00.02.10:555][974]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.10:556][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001056s)
+[2024.12.14-00.02.10:556][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001092s)
+[2024.12.14-00.02.10:556][974]LogAudio: Display: Audio Device (ID: 18) registered with world 'map'.
+[2024.12.14-00.02.10:556][974]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.02.10:557][974]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2024.12.14-00.02.10:557][974]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.02.10:557][974]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.02.10
+[2024.12.14-00.02.10:557][974]LogWorld: Bringing up level for play took: 0.000321
+[2024.12.14-00.02.10:559][974]LogLoad: Took 0.062290 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.02.10:559][974]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.26:753][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.14-00.02.26:753][881]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.26:754][881]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.02.26:754][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.02.26:756][881]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.14-00.02.26:760][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.02.26:776][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.14-00.02.26:776][881]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.12.14-00.02.26:776][881]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.12.14-00.02.26:778][881]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.12.14-00.02.26:785][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.12.14-00.02.26:832][886]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2024.12.14-00.02.52:051][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.12.14-00.02.53:057][753]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.14-00.02.53:102][753]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Tunnel_BP] ([2] browsable assets)...
+[2024.12.14-00.02.53:130][753]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Tunnel_BP.Tunnel_BP]
+[2024.12.14-00.02.53:130][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tunnel_BP]
+[2024.12.14-00.02.53:130][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tunnel_BP" FILE="../../../../../../The-Tech-Academy-C---and-Unreal-Engine-Projects/Basicgame/Content/Blueprints/Tunnel_BP.uasset" SILENT=true
+[2024.12.14-00.02.53:136][753]LogSavePackage: Moving output files for package: /Game/Blueprints/Tunnel_BP
+[2024.12.14-00.02.53:136][753]LogSavePackage: Moving '../../../../../../The-Tech-Academy-C---and-Unreal-Engine-Projects/Basicgame/Saved/Tunnel_BPE12FC2D94B8C68B34D38DAB4765D8277.tmp' to '../../../../../../The-Tech-Academy-C---and-Unreal-Engine-Projects/Basicgame/Content/Blueprints/Tunnel_BP.uasset'
+[2024.12.14-00.02.53:143][753]LogFileHelpers: InternalPromptForCheckoutAndSave took 86.042 ms (total: 3.11 sec)
+[2024.12.14-00.02.53:205][753]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.14-00.02.53:205][753]LogContentValidation: Enabled validators:
+[2024.12.14-00.02.53:205][753]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.14-00.02.53:205][753]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.14-00.02.53:205][753]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.14-00.02.53:205][753]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.14-00.02.53:205][753]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.14-00.02.53:205][753]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.14-00.02.53:205][753]AssetCheck: /Game/Blueprints/Tunnel_BP Validating asset
+[2024.12.14-00.02.53:556][785]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3993.973633
+[2024.12.14-00.02.53:606][790]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.14-00.02.53:606][790]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3994.013184, Update Interval: 349.000519
+[2024.12.14-00.02.54:656][894]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.14-00.02.54:661][894]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.14-00.02.54:661][894]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.54:661][894]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001147s)
+[2024.12.14-00.02.54:661][894]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001173s)
+[2024.12.14-00.02.54:675][894]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.12.14-00.02.54:679][894]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.02.54:680][894]LogPlayLevel: PIE: World Init took: (0.001248s)
+[2024.12.14-00.02.54:681][894]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.12.14-00.02.54:681][894]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.14-00.02.54:681][894]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.14-00.02.54:681][894]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.14-00.02.54:681][894]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.14-00.02.54:681][894]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.14-00.02.54:681][894]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.14-00.02.54:681][894]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.14-00.02.54:681][894]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.14-00.02.54:681][894]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.14-00.02.54:681][894]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.14-00.02.54:681][894]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.14-00.02.54:683][894]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.14-00.02.54:698][894]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- PRO X Wireless Gaming Headset)
+[2024.12.14-00.02.54:698][894]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.14-00.02.54:698][894]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.14-00.02.54:698][894]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.14-00.02.54:698][894]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.12.14-00.02.54:698][894]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.12.14-00.02.54:700][894]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.12.14-00.02.54:700][894]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.12.14-00.02.54:700][894]LogInit: FAudioDevice initialized with ID 19.
+[2024.12.14-00.02.54:700][894]LogAudio: Display: Audio Device (ID: 19) registered with world 'map'.
+[2024.12.14-00.02.54:700][894]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.12.14-00.02.54:702][894]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.02.54:702][894]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.02.54
+[2024.12.14-00.02.54:702][894]LogWorld: Bringing up level for play took: 0.000452
+[2024.12.14-00.02.54:704][894]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2024.12.14-00.02.54:706][894]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.12.14-00.02.54:707][894]PIE: Server logged in
+[2024.12.14-00.02.54:708][894]PIE: Play in editor total start time 0.048 seconds.
+[2024.12.14-00.02.57:065][118]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.02.57:065][118]LogNet: Browse: /Game/level/map
+[2024.12.14-00.02.57:065][118]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.02.57:065][118]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.57:066][118]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.02.57:066][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.02.57:130][118]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.02.57:131][118]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.12.14-00.02.57:134][118]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.57:135][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001064s)
+[2024.12.14-00.02.57:135][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001100s)
+[2024.12.14-00.02.57:135][118]LogAudio: Display: Audio Device (ID: 19) registered with world 'map'.
+[2024.12.14-00.02.57:135][118]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.02.57:137][118]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2024.12.14-00.02.57:137][118]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.02.57:137][118]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.02.57
+[2024.12.14-00.02.57:137][118]LogWorld: Bringing up level for play took: 0.000325
+[2024.12.14-00.02.57:139][118]LogLoad: Took 0.073478 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.02.57:139][118]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.59:558][354]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.02.59:558][354]LogNet: Browse: /Game/level/map
+[2024.12.14-00.02.59:558][354]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.02.59:558][354]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.59:559][354]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.02.59:559][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.02.59:598][354]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.02.59:599][354]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.12.14-00.02.59:601][354]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.02.59:602][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001054s)
+[2024.12.14-00.02.59:602][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001090s)
+[2024.12.14-00.02.59:602][354]LogAudio: Display: Audio Device (ID: 19) registered with world 'map'.
+[2024.12.14-00.02.59:602][354]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.02.59:603][354]LogPlayLevel: PIE: World Init took: (0.000985s)
+[2024.12.14-00.02.59:603][354]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.02.59:603][354]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.02.59
+[2024.12.14-00.02.59:603][354]LogWorld: Bringing up level for play took: 0.000315
+[2024.12.14-00.02.59:605][354]LogLoad: Took 0.047534 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.02.59:605][354]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.01:916][583]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.03.01:916][583]LogNet: Browse: /Game/level/map
+[2024.12.14-00.03.01:916][583]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.03.01:916][583]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.01:917][583]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.03.01:917][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.03.01:972][583]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.03.01:975][583]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.12.14-00.03.01:976][583]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.01:977][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001001s)
+[2024.12.14-00.03.01:977][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001035s)
+[2024.12.14-00.03.01:977][583]LogAudio: Display: Audio Device (ID: 19) registered with world 'map'.
+[2024.12.14-00.03.01:977][583]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.03.01:978][583]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2024.12.14-00.03.01:978][583]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.03.01:978][583]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.03.01
+[2024.12.14-00.03.01:978][583]LogWorld: Bringing up level for play took: 0.000324
+[2024.12.14-00.03.01:981][583]LogLoad: Took 0.065437 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.03.01:981][583]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.04:506][835]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.03.04:506][835]LogNet: Browse: /Game/level/map
+[2024.12.14-00.03.04:506][835]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.03.04:506][835]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.04:507][835]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.03.04:507][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.03.04:547][835]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.03.04:549][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.12.14-00.03.04:551][835]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.04:551][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001036s)
+[2024.12.14-00.03.04:551][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001071s)
+[2024.12.14-00.03.04:551][835]LogAudio: Display: Audio Device (ID: 19) registered with world 'map'.
+[2024.12.14-00.03.04:551][835]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.03.04:553][835]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2024.12.14-00.03.04:553][835]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.03.04:553][835]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.03.04
+[2024.12.14-00.03.04:554][835]LogWorld: Bringing up level for play took: 0.000322
+[2024.12.14-00.03.04:556][835]LogLoad: Took 0.049214 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.03.04:556][835]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.09:814][348]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.03.09:814][348]LogNet: Browse: /Game/level/map
+[2024.12.14-00.03.09:814][348]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.03.09:814][348]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.09:815][348]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.03.09:815][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.03.09:859][348]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.03.09:860][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.12.14-00.03.09:863][348]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.09:864][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001064s)
+[2024.12.14-00.03.09:864][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001102s)
+[2024.12.14-00.03.09:864][348]LogAudio: Display: Audio Device (ID: 19) registered with world 'map'.
+[2024.12.14-00.03.09:864][348]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.03.09:865][348]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2024.12.14-00.03.09:865][348]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.03.09:865][348]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.03.09
+[2024.12.14-00.03.09:866][348]LogWorld: Bringing up level for play took: 0.000323
+[2024.12.14-00.03.09:868][348]LogLoad: Took 0.053512 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.03.09:868][348]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.13:459][695]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.03.13:459][695]LogNet: Browse: /Game/level/map
+[2024.12.14-00.03.13:459][695]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.03.13:459][695]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.13:460][695]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.03.13:460][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.03.13:513][695]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.03.13:514][695]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.12.14-00.03.13:516][695]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.13:517][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001018s)
+[2024.12.14-00.03.13:517][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001053s)
+[2024.12.14-00.03.13:517][695]LogAudio: Display: Audio Device (ID: 19) registered with world 'map'.
+[2024.12.14-00.03.13:517][695]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.03.13:518][695]LogPlayLevel: PIE: World Init took: (0.000967s)
+[2024.12.14-00.03.13:518][695]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.03.13:518][695]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.03.13
+[2024.12.14-00.03.13:519][695]LogWorld: Bringing up level for play took: 0.000322
+[2024.12.14-00.03.13:521][695]LogLoad: Took 0.061885 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.03.13:521][695]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.15:948][936]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.03.15:948][936]LogNet: Browse: /Game/level/map
+[2024.12.14-00.03.15:948][936]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.03.15:948][936]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.15:949][936]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.03.15:949][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.03.16:015][936]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.03.16:016][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.12.14-00.03.16:018][936]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.16:019][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001024s)
+[2024.12.14-00.03.16:019][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001061s)
+[2024.12.14-00.03.16:019][936]LogAudio: Display: Audio Device (ID: 19) registered with world 'map'.
+[2024.12.14-00.03.16:019][936]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.03.16:020][936]LogPlayLevel: PIE: World Init took: (0.001006s)
+[2024.12.14-00.03.16:020][936]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.03.16:021][936]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.03.16
+[2024.12.14-00.03.16:021][936]LogWorld: Bringing up level for play took: 0.000315
+[2024.12.14-00.03.16:022][936]LogLoad: Took 0.074707 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.03.16:022][936]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.18:498][181]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.03.18:498][181]LogNet: Browse: /Game/level/map
+[2024.12.14-00.03.18:498][181]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.03.18:498][181]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.18:499][181]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.03.18:499][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.03.18:537][181]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.03.18:539][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.12.14-00.03.18:541][181]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.18:543][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001031s)
+[2024.12.14-00.03.18:543][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001065s)
+[2024.12.14-00.03.18:543][181]LogAudio: Display: Audio Device (ID: 19) registered with world 'map'.
+[2024.12.14-00.03.18:543][181]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.03.18:544][181]LogPlayLevel: PIE: World Init took: (0.000979s)
+[2024.12.14-00.03.18:544][181]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.03.18:544][181]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.03.18
+[2024.12.14-00.03.18:544][181]LogWorld: Bringing up level for play took: 0.000310
+[2024.12.14-00.03.18:546][181]LogLoad: Took 0.048426 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.03.18:546][181]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.27:333][ 32]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.14-00.03.27:333][ 32]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.27:334][ 32]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.03.27:334][ 32]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.03.27:338][ 32]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.14-00.03.27:341][ 32]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.03.27:358][ 32]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.14-00.03.27:358][ 32]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.12.14-00.03.27:358][ 32]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.12.14-00.03.27:360][ 32]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.12.14-00.03.27:366][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.12.14-00.03.27:407][ 35]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2024.12.14-00.03.36:016][889]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.14-00.03.36:021][889]LogPlayLevel: [PlayLevel] Compiling Tunnel_BP before play...
+[2024.12.14-00.03.36:071][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.12.14-00.03.36:074][889]LogPlayLevel: PlayLevel: Blueprint regeneration took 53 ms (1 blueprints)
+[2024.12.14-00.03.36:074][889]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.36:075][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001122s)
+[2024.12.14-00.03.36:075][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001148s)
+[2024.12.14-00.03.36:087][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.12.14-00.03.36:088][889]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.03.36:089][889]LogPlayLevel: PIE: World Init took: (0.001202s)
+[2024.12.14-00.03.36:090][889]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.12.14-00.03.36:090][889]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.14-00.03.36:090][889]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.14-00.03.36:090][889]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.14-00.03.36:090][889]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.14-00.03.36:090][889]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.14-00.03.36:090][889]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.14-00.03.36:090][889]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.14-00.03.36:090][889]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.14-00.03.36:090][889]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.14-00.03.36:090][889]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.14-00.03.36:090][889]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.14-00.03.36:093][889]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.14-00.03.36:106][889]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- PRO X Wireless Gaming Headset)
+[2024.12.14-00.03.36:106][889]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.14-00.03.36:106][889]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.14-00.03.36:106][889]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.14-00.03.36:106][889]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.12.14-00.03.36:106][889]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.12.14-00.03.36:108][889]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.12.14-00.03.36:108][889]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.12.14-00.03.36:108][889]LogInit: FAudioDevice initialized with ID 20.
+[2024.12.14-00.03.36:108][889]LogAudio: Display: Audio Device (ID: 20) registered with world 'map'.
+[2024.12.14-00.03.36:108][889]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.12.14-00.03.36:110][889]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.03.36:110][889]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.03.36
+[2024.12.14-00.03.36:110][889]LogWorld: Bringing up level for play took: 0.000436
+[2024.12.14-00.03.36:112][889]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.12.14-00.03.36:115][889]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.12.14-00.03.36:115][889]PIE: Server logged in
+[2024.12.14-00.03.36:116][889]PIE: Play in editor total start time 0.096 seconds.
+[2024.12.14-00.03.38:665][131]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.03.38:666][131]LogNet: Browse: /Game/level/map
+[2024.12.14-00.03.38:666][131]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.03.38:666][131]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.38:666][131]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.03.38:667][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.03.38:730][131]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.03.38:731][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.12.14-00.03.38:735][131]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.38:736][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001073s)
+[2024.12.14-00.03.38:736][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001114s)
+[2024.12.14-00.03.38:736][131]LogAudio: Display: Audio Device (ID: 20) registered with world 'map'.
+[2024.12.14-00.03.38:736][131]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.03.38:737][131]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2024.12.14-00.03.38:737][131]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.03.38:737][131]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.03.38
+[2024.12.14-00.03.38:738][131]LogWorld: Bringing up level for play took: 0.000329
+[2024.12.14-00.03.38:740][131]LogLoad: Took 0.074371 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.03.38:740][131]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.47:448][969]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.03.47:448][969]LogNet: Browse: /Game/level/map
+[2024.12.14-00.03.47:448][969]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.03.47:448][969]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.47:449][969]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.03.47:449][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.03.47:505][969]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.03.47:507][969]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.12.14-00.03.47:509][969]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.47:510][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001032s)
+[2024.12.14-00.03.47:510][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001066s)
+[2024.12.14-00.03.47:510][969]LogAudio: Display: Audio Device (ID: 20) registered with world 'map'.
+[2024.12.14-00.03.47:510][969]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.03.47:511][969]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2024.12.14-00.03.47:511][969]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.03.47:511][969]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.03.47
+[2024.12.14-00.03.47:511][969]LogWorld: Bringing up level for play took: 0.000317
+[2024.12.14-00.03.47:513][969]LogLoad: Took 0.065281 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.03.47:513][969]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.52:453][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.14-00.03.52:453][462]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.03.52:453][462]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.03.52:454][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.03.52:457][462]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.14-00.03.52:462][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.03.52:478][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.14-00.03.52:479][462]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.12.14-00.03.52:479][462]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.12.14-00.03.52:480][462]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.12.14-00.03.52:485][462]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.12.14-00.03.52:526][465]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2024.12.14-00.05.03:391][460]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.14-00.05.03:395][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.14-00.05.03:395][460]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.03:396][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001212s)
+[2024.12.14-00.05.03:396][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001241s)
+[2024.12.14-00.05.03:410][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.12.14-00.05.03:413][460]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.05.03:415][460]LogPlayLevel: PIE: World Init took: (0.001322s)
+[2024.12.14-00.05.03:415][460]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.12.14-00.05.03:415][460]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.14-00.05.03:415][460]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.14-00.05.03:415][460]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.14-00.05.03:415][460]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.14-00.05.03:415][460]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.14-00.05.03:415][460]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.14-00.05.03:415][460]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.14-00.05.03:415][460]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.14-00.05.03:415][460]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.14-00.05.03:415][460]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.14-00.05.03:415][460]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.14-00.05.03:418][460]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.14-00.05.03:433][460]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- PRO X Wireless Gaming Headset)
+[2024.12.14-00.05.03:433][460]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.14-00.05.03:433][460]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.14-00.05.03:433][460]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.14-00.05.03:434][460]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.12.14-00.05.03:434][460]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.12.14-00.05.03:435][460]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.12.14-00.05.03:435][460]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.12.14-00.05.03:435][460]LogInit: FAudioDevice initialized with ID 21.
+[2024.12.14-00.05.03:435][460]LogAudio: Display: Audio Device (ID: 21) registered with world 'map'.
+[2024.12.14-00.05.03:435][460]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.12.14-00.05.03:437][460]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.05.03:438][460]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.05.03
+[2024.12.14-00.05.03:438][460]LogWorld: Bringing up level for play took: 0.000470
+[2024.12.14-00.05.03:439][460]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2024.12.14-00.05.03:442][460]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.12.14-00.05.03:443][460]PIE: Server logged in
+[2024.12.14-00.05.03:444][460]PIE: Play in editor total start time 0.049 seconds.
+[2024.12.14-00.05.06:317][772]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.05.06:317][772]LogNet: Browse: /Game/level/map
+[2024.12.14-00.05.06:317][772]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.05.06:317][772]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.06:318][772]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.05.06:318][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.05.06:385][772]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.05.06:387][772]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.12.14-00.05.06:389][772]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.06:390][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001019s)
+[2024.12.14-00.05.06:390][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001054s)
+[2024.12.14-00.05.06:390][772]LogAudio: Display: Audio Device (ID: 21) registered with world 'map'.
+[2024.12.14-00.05.06:390][772]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.05.06:391][772]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2024.12.14-00.05.06:391][772]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.05.06:391][772]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.05.06
+[2024.12.14-00.05.06:391][772]LogWorld: Bringing up level for play took: 0.000315
+[2024.12.14-00.05.06:393][772]LogLoad: Took 0.076982 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.05.06:393][772]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.08:863][ 45]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.05.08:863][ 45]LogNet: Browse: /Game/level/map
+[2024.12.14-00.05.08:863][ 45]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.05.08:863][ 45]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.08:864][ 45]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.05.08:864][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.05.08:922][ 45]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.05.08:924][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.12.14-00.05.08:926][ 45]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.08:927][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001058s)
+[2024.12.14-00.05.08:927][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001117s)
+[2024.12.14-00.05.08:927][ 45]LogAudio: Display: Audio Device (ID: 21) registered with world 'map'.
+[2024.12.14-00.05.08:927][ 45]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.05.08:928][ 45]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2024.12.14-00.05.08:928][ 45]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.05.08:929][ 45]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.05.08
+[2024.12.14-00.05.08:929][ 45]LogWorld: Bringing up level for play took: 0.000313
+[2024.12.14-00.05.08:931][ 45]LogLoad: Took 0.068206 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.05.08:931][ 45]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.11:417][316]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.05.11:417][316]LogNet: Browse: /Game/level/map
+[2024.12.14-00.05.11:417][316]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.05.11:417][316]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.11:417][316]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.05.11:418][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.05.11:485][316]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.05.11:486][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.12.14-00.05.11:489][316]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.11:490][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001049s)
+[2024.12.14-00.05.11:490][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001084s)
+[2024.12.14-00.05.11:490][316]LogAudio: Display: Audio Device (ID: 21) registered with world 'map'.
+[2024.12.14-00.05.11:490][316]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.05.11:491][316]LogPlayLevel: PIE: World Init took: (0.001054s)
+[2024.12.14-00.05.11:491][316]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.05.11:491][316]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.05.11
+[2024.12.14-00.05.11:491][316]LogWorld: Bringing up level for play took: 0.000315
+[2024.12.14-00.05.11:494][316]LogLoad: Took 0.077530 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.05.11:494][316]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.14:191][612]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.05.14:191][612]LogNet: Browse: /Game/level/map
+[2024.12.14-00.05.14:191][612]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.05.14:191][612]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.14:191][612]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.05.14:191][612]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.05.14:229][612]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.05.14:230][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.12.14-00.05.14:232][612]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.14:233][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001030s)
+[2024.12.14-00.05.14:233][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001065s)
+[2024.12.14-00.05.14:233][612]LogAudio: Display: Audio Device (ID: 21) registered with world 'map'.
+[2024.12.14-00.05.14:233][612]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.05.14:234][612]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2024.12.14-00.05.14:234][612]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.05.14:234][612]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.05.14
+[2024.12.14-00.05.14:234][612]LogWorld: Bringing up level for play took: 0.000323
+[2024.12.14-00.05.14:237][612]LogLoad: Took 0.046201 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.05.14:237][612]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.18:416][ 70]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.05.18:416][ 70]LogNet: Browse: /Game/level/map
+[2024.12.14-00.05.18:416][ 70]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.05.18:416][ 70]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.18:417][ 70]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.05.18:418][ 70]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.05.18:473][ 70]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.05.18:474][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.12.14-00.05.18:477][ 70]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.18:478][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001033s)
+[2024.12.14-00.05.18:478][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001069s)
+[2024.12.14-00.05.18:478][ 70]LogAudio: Display: Audio Device (ID: 21) registered with world 'map'.
+[2024.12.14-00.05.18:478][ 70]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.05.18:479][ 70]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2024.12.14-00.05.18:479][ 70]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.05.18:479][ 70]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.05.18
+[2024.12.14-00.05.18:479][ 70]LogWorld: Bringing up level for play took: 0.000319
+[2024.12.14-00.05.18:481][ 70]LogLoad: Took 0.064760 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.05.18:481][ 70]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.21:500][404]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.05.21:500][404]LogNet: Browse: /Game/level/map
+[2024.12.14-00.05.21:500][404]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.05.21:500][404]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.21:501][404]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.05.21:501][404]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.05.21:555][404]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.05.21:557][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.12.14-00.05.21:559][404]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.21:560][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001051s)
+[2024.12.14-00.05.21:560][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001086s)
+[2024.12.14-00.05.21:560][404]LogAudio: Display: Audio Device (ID: 21) registered with world 'map'.
+[2024.12.14-00.05.21:560][404]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.05.21:561][404]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2024.12.14-00.05.21:561][404]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.05.21:561][404]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.05.21
+[2024.12.14-00.05.21:561][404]LogWorld: Bringing up level for play took: 0.000315
+[2024.12.14-00.05.21:563][404]LogLoad: Took 0.063298 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.05.21:563][404]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.25:076][790]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.05.25:076][790]LogNet: Browse: /Game/level/map
+[2024.12.14-00.05.25:076][790]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.05.25:076][790]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.25:077][790]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.05.25:077][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.05.25:128][790]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.05.25:129][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.12.14-00.05.25:131][790]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.25:132][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001059s)
+[2024.12.14-00.05.25:132][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001096s)
+[2024.12.14-00.05.25:132][790]LogAudio: Display: Audio Device (ID: 21) registered with world 'map'.
+[2024.12.14-00.05.25:132][790]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.05.25:133][790]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2024.12.14-00.05.25:133][790]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.05.25:133][790]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.05.25
+[2024.12.14-00.05.25:133][790]LogWorld: Bringing up level for play took: 0.000324
+[2024.12.14-00.05.25:136][790]LogLoad: Took 0.060681 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.05.25:136][790]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.27:812][ 82]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.05.27:812][ 82]LogNet: Browse: /Game/level/map
+[2024.12.14-00.05.27:812][ 82]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.05.27:812][ 82]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.27:813][ 82]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.05.27:813][ 82]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.05.27:859][ 82]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.05.27:860][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.12.14-00.05.27:862][ 82]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.27:864][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001038s)
+[2024.12.14-00.05.27:864][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001074s)
+[2024.12.14-00.05.27:864][ 82]LogAudio: Display: Audio Device (ID: 21) registered with world 'map'.
+[2024.12.14-00.05.27:864][ 82]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.05.27:865][ 82]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2024.12.14-00.05.27:865][ 82]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.05.27:865][ 82]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.05.27
+[2024.12.14-00.05.27:865][ 82]LogWorld: Bringing up level for play took: 0.000316
+[2024.12.14-00.05.27:868][ 82]LogLoad: Took 0.055058 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.05.27:868][ 82]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.31:251][454]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.05.31:251][454]LogNet: Browse: /Game/level/map
+[2024.12.14-00.05.31:251][454]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.05.31:251][454]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.31:251][454]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.05.31:252][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.05.31:288][454]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.05.31:290][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.12.14-00.05.31:292][454]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.31:293][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001053s)
+[2024.12.14-00.05.31:293][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001090s)
+[2024.12.14-00.05.31:293][454]LogAudio: Display: Audio Device (ID: 21) registered with world 'map'.
+[2024.12.14-00.05.31:293][454]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.05.31:294][454]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2024.12.14-00.05.31:294][454]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.05.31:294][454]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.05.31
+[2024.12.14-00.05.31:294][454]LogWorld: Bringing up level for play took: 0.000320
+[2024.12.14-00.05.31:296][454]LogLoad: Took 0.045987 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.05.31:296][454]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.36:913][ 77]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.05.36:914][ 77]LogNet: Browse: /Game/level/map
+[2024.12.14-00.05.36:914][ 77]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.05.36:914][ 77]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.36:914][ 77]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.05.36:915][ 77]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.05.36:971][ 77]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.05.36:972][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.12.14-00.05.36:975][ 77]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.36:976][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001041s)
+[2024.12.14-00.05.36:976][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001075s)
+[2024.12.14-00.05.36:976][ 77]LogAudio: Display: Audio Device (ID: 21) registered with world 'map'.
+[2024.12.14-00.05.36:976][ 77]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.05.36:977][ 77]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2024.12.14-00.05.36:977][ 77]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.05.36:978][ 77]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.05.36
+[2024.12.14-00.05.36:978][ 77]LogWorld: Bringing up level for play took: 0.000329
+[2024.12.14-00.05.36:980][ 77]LogLoad: Took 0.066005 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.05.36:980][ 77]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.40:011][412]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/level/map"
+[2024.12.14-00.05.40:011][412]LogNet: Browse: /Game/level/map
+[2024.12.14-00.05.40:011][412]LogLoad: LoadMap: /Game/level/map
+[2024.12.14-00.05.40:011][412]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.40:012][412]LogWorld: UWorld::CleanupWorld for map, bSessionEnded=true, bCleanupResources=true
+[2024.12.14-00.05.40:012][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.14-00.05.40:062][412]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.14-00.05.40:064][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.12.14-00.05.40:065][412]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_map
+[2024.12.14-00.05.40:067][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001059s)
+[2024.12.14-00.05.40:067][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/map.map to /Game/level/UEDPIE_0_map.map (0.001095s)
+[2024.12.14-00.05.40:067][412]LogAudio: Display: Audio Device (ID: 21) registered with world 'map'.
+[2024.12.14-00.05.40:067][412]LogChaosDD: Creating Chaos Debug Draw Scene for world map
+[2024.12.14-00.05.40:068][412]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2024.12.14-00.05.40:068][412]LogLoad: Game class is 'Gamemode_BP_C'
+[2024.12.14-00.05.40:069][412]LogWorld: Bringing World /Game/level/UEDPIE_0_map.map up for play (max tick rate 0) at 2024.12.13-19.05.40
+[2024.12.14-00.05.40:069][412]LogWorld: Bringing up level for play took: 0.000311
+[2024.12.14-00.05.40:071][412]LogLoad: Took 0.059044 seconds to LoadMap(/Game/level/UEDPIE_0_map)
+[2024.12.14-00.05.40:071][412]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/level/UEDPIE_0_map
