@@ -1,0 +1,26 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/Basicgame/Content/level/map.umap",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/Basicgame/Content/Blueprints/Player_BP.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/Basicgame/Content/Blueprints/Gamemode_BP.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/Basicgame/Content/Materials/M_TunnelBase.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/Basicgame/Content/Materials/MI_Tunnel.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/Basicgame/Content/Materials/MI_Hole.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/Basicgame/Content/Blueprints/Tunnelspawner_BP.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/Basicgame/Content/Blueprints/Tunnel_BP.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/Basicgame/Content/Meshes/SM_Tunnel.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/Basicgame/Content/Meshes/SM_Hole_04.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/Basicgame/Content/Meshes/SM_Hole_03.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/Basicgame/Content/Meshes/SM_Hole_02.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/Basicgame/Content/Meshes/SM_Hole_01.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/Basicgame/Content/UI/myGameOver_WB.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/Basicgame/Content/UI/Scoreuser_WB.uasset"
+			]
+		}
+	]
+}

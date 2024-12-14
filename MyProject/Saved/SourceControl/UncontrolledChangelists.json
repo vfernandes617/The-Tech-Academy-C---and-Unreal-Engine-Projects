@@ -1,0 +1,51 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FPWeapon/Materials/M_FPGun_Inst.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FPWeapon/Mesh/SK_FPGun.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/_Game/Audio/submachine-gun-79846_Cue.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/_Game/Particles/PS_Explode.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/F5/TG9NLBEYEXFQI90X6L1XA8.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/V5/0LLTK7QG3ZVQ55GTZMX3C9.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FirstPerson/Blueprints/BP_BlastBall.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/_Game/Audio/Hitsound.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FirstPerson/Blueprints/BP_Enemy.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/_Enemy/Animations/AI/WalkBlendSpace_1D.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/_Enemy/Enemy.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/_Enemy/SK_Enemy.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/_Game/Particles/BS_Blastballimpact.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/_Enemy/Animations/AI/Crazywalk1D.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/_Enemy/Animations/AI/AP_Enemy.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/_Enemy/Animations/AI/WB_Healthbar.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FirstPerson/Blueprints/BP_FirstPersonProjectile.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/OY/W0D19MFIG8L9QH87ZS1N2Q.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/_Enemy/Fbx_Default_Material_0.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FirstPersonArms/Animations/FP_Falling.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FirstPersonArms/Animations/FP_Idle.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FirstPersonArms/Animations/FP_Jump.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FirstPersonArms/Animations/FP_Land.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FirstPersonArms/Animations/FP_Rifle_Falling.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FirstPersonArms/Animations/FP_Rifle_Fire.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FirstPersonArms/Animations/FP_Rifle_Idle.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FirstPersonArms/Animations/FP_Rifle_Jump.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FirstPersonArms/Animations/FP_Rifle_Land.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FirstPersonArms/Animations/FP_Rifle_Run.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FirstPersonArms/Animations/FP_Run_Fwd.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FPWeapon/Materials/M_FPGun_Inst1.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/_Enemy/m_tal_ovw_body_mocap_PhysicsAsset.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/_Game/Audio/metal-hit-sound-effect-241374.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/L9/UG5UT5DCLSZU2LZLKRF2UD.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/QY/YEXTLVOQ82H51C3ZTCTW8J.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/XJ/HL558UUAGCS9HVVOI0S7PX.uasset",
+				"C:/The-Tech-Academy-C---and-Unreal-Engine-Projects/MyProject/Content/_Game/Audio/submachine-gun-79846.uasset"
+			]
+		}
+	]
+}
